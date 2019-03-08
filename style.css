@@ -1,0 +1,364 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*banner*/
+#showcase-cover{
+  background-image: url(../img/banner1.jpeg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+#showcase .content-box{
+  margin:0;
+  height:700px;
+  background-color: rgba(0, 0, 0, .5);
+}
+.content-logo{
+  padding-top: 5%;
+}
+.content h1{
+  color:#fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 100px;
+}
+.content p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 50px;
+}
+.showcase-author p{
+  color: #fff;
+  font-size: 14px;
+  font-style: italic;
+}
+/**** NAVIGATION**/
+#navigation{
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+#site-navigation{
+  width:80%;
+  margin-left: 10%;
+  padding:0;
+}
+#site-navigation ul{
+  margin:0;
+  padding:0;
+  position: relative;
+  float:left;
+  display: flex;
+  list-style: none;
+  transition: .5s;
+}
+.nav-list li{
+  margin-top: 32px;
+}
+.nav-list a{
+  color: #3b3b3b;
+  text-transform: uppercase;
+  padding: 30px 20px;
+  transition: .5s;
+}
+.nav-list .active a{
+  color:#feb300;
+  background-color: #3b3b3b;
+  padding: 44px 20px;
+}
+.nav-list a:hover{
+  color: #fff;
+  text-decoration: none;
+  transition: .5s;
+}
+.navbar-brand{
+  float: right;
+}
+/**PORTFOLIO*/
+#portfolio .content-box{
+  background-color: #3b3b3b;
+  width: 100%;
+  height: 700px;
+}
+#portfolio .no-gutter{
+  padding-left: 0;
+  padding-right: 0;
+}
+.container-fluid{
+  padding-top: 10px;
+}
+.img-wrapper{
+  overflow: hidden;
+}
+.img-wrapper img{
+  transition: transform .5s ease;
+}
+.img-wrapper img:hover{
+  transform: scale(1.2);
+  cursor: zoom-in;
+}
+.btn-black{
+  padding-top:25px;
+}
+.btn-black a{
+  color: #feb300;
+  border-radius: 0;
+  border-color: #feb300;
+  text-transform: uppercase;
+}
+.btn-black a:hover{
+  background-color: #feb300;
+  color: #fff;
+  border-color: #fff;
+}
+/*SERVICES*/
+#services{
+  width: 100%;
+  height: 700px;
+  background-color: #feb300;
+}
+#services .content-box{
+  width: 100%;
+  padding-top: 100px;
+}
+.content-title h2{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.content-title-underline{
+  background-color: #000;
+  height: 3px;
+  width: 100px;
+  margin: 0 auto 50px auto;
+}
+.service-item-icon{
+  background-image: url(../img/icon-bg.png);
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  background-position: center;
+  background-size: contain;
+}
+.icon-center{
+  margin: 50px auto 0 10px;
+}
+.service-item-title{
+  padding: 50px 0 20px 0;
+}
+.service-item-title h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/*QUOTE*/
+#quote-cover{
+  width:100%;
+  height: 400px;
+  background-color: #3b3b3b;
+}
+.quote-content{
+  width:100%;
+  margin:0;
+}
+#quote-content h2{
+  padding-top: 10%;
+  font-size: 55px;
+  color:#fff;
+  text-transform: uppercase;
+}
+#quote-underline{
+  width: 100%;
+  background-color: #feb300;
+  height: 10px;
+}
+/*signup*/
+#signup{
+  width:100%;
+  height: 400px;
+  background-image: url(../img/parallaxsignup.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+#signup-cover{
+  margin:0;
+  height:400px;
+  background-color: rgba(0, 0, 0, .8);
+}
+#signup h2{
+  color:#feb300;
+  font-size: 55px;
+  text-transform: uppercase;
+  padding-top: 5%;
+}
+#signup .container{
+  padding-top: 50px;
+}
+#signup input{
+  background-color: #3b3b3b;
+  border:none;
+  border-radius:0;
+  color:#fff;
+}
+#signup .btn-general{
+  background-color: #feb300;
+  padding:5px 150px;
+  border-radius: 0;
+  color:#3b3b3b;
+  font-weight: bold;
+}
+/*About*/
+#about{
+  width: 100%;
+  height: 700px;
+  background-color: #feb300;
+}
+#about .content-box{
+  padding-top: 10%;
+}
+.team-member{
+  background-size: contain;
+  padding: 0 60px;
+}
+.team-member img{
+  width: 200px;
+  height: 250px;
+  -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+  clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+
+.team-member-name h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+.social-list{
+    margin-left: -45px;
+}
+.social-list li{
+  display: inline-block;
+}
+.social-list a{
+  color: #3b3b3b;
+}
+.social-list a:hover{
+  color: #fff;
+}
+/*CONTACT*/
+#contact{
+  width: 100%;
+  height: 750px;
+  background-color: #3b3b3b;
+  overflow: hidden;
+}
+#contact .content-title h2{
+  color: #fff;
+  padding-top:5%;
+}
+#contact .content-title-underline{
+  background-color: #fff;
+}
+.contact-detail{
+  color:#fff;
+  text-align: left;
+  padding-right: 20px;
+}
+.contact-item-right{
+  margin-right: -20px;
+}
+.right-cover{
+  background-color: #feb300;
+  height: 400px;
+  width: 90%;
+}
+.right-cover form{
+  padding:20px;
+
+}
+form .form-control{
+  margin-bottom: 10px;
+  border-radius: 0;
+  text-align: center;
+}
+.right-cover textarea{
+  height: 173px;
+}
+.send-btn a{
+  background-color: #3b3b3b;
+  border: none;
+  border-radius: 0;
+  padding: 5px 45%;
+  color: #feb300;
+  font-size: 16px;
+  font-weight: bold;
+}
+.send-btn a:hover{
+  color: #fff;
+  background-color: #292929;
+}
+#contact-list{
+  width:100%;
+  text-align: center;
+}
+.contact-item{
+  padding-top: 50px;
+}
+.contact-icon{
+  color:#feb300;
+}
+.contact-item p{
+  padding-top: 20px;
+  color:#fff;
+  font-size: 14px;
+}
+.contact-item h3{
+  color: #feb300;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.socials{
+  padding-top: 10px;
+}
+.social-list a{
+  color: #fff;
+  padding: 5px;
+}
+.social-list a:hover{
+  color: #feb300;
+}
+/*footer*/
+#footer-bottom{
+  width: 100%;
+  height: 50px;
+  background-color: #feb300;
+}
+#footer-bottom .container{
+  padding-top: 1%;
+}
+.copyrights p{
+  font-size: 12px;
+}
+#footer-menu ul{
+  list-style: none;
+  float:right;
+}
+#footer-menu li{
+  display: inline-block;
+}
+#footer-menu a{
+  color: #3b3b3b;
+  padding:2px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+#footer-menu a:hover{
+  color: #fff;
+}
