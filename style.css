@@ -4,7 +4,7 @@ body{
 
 /*banner*/
 #showcase-cover{
-  background-image: url(../img/banner1.jpeg);
+  background-image: url("banner1.jpeg");
   background-repeat: no-repeat;
   width: 100%;
   height: 700px;
@@ -139,7 +139,7 @@ body{
   margin: 0 auto 50px auto;
 }
 .service-item-icon{
-  background-image: url(../img/icon-bg.png);
+  background-image: url("icon-bg.png");
   background-repeat: no-repeat;
   padding-bottom: 50px;
   background-position: center;
@@ -181,7 +181,7 @@ body{
 #signup{
   width:100%;
   height: 400px;
-  background-image: url(../img/parallaxsignup.jpg);
+  background-image: url("parallaxsignup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
